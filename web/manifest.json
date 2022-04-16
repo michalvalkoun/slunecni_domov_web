@@ -1,11 +1,11 @@
 {
-    "name": "slunecni_domov",
-    "short_name": "slunecni_domov",
+    "name": "Sluneční domov o.p.s.",
+    "short_name": "Sluneční domov o.p.s.",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Sluneční domov o.p.s.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
