@@ -29,10 +29,10 @@ class Body5 extends StatelessWidget {
                         ...e.map(
                           (e) => GestureDetector(
                             onTap: () {
-                              launchUrl(Uri.parse("https://www.instagram.com/explore/tags/slunecnidomov/?hl=cs"));
+                              launchUrl(Uri.parse("https://www.instagram.com/trochujinydomecek"));
                             },
                             child: Container(
-                              margin: EdgeInsets.all(20),
+                              margin: const EdgeInsets.all(20),
                               child: Image.asset(
                                 e,
                                 width: 310,

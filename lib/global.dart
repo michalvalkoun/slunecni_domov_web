@@ -11,9 +11,9 @@ class MenuItem {
 List<MenuItem> menu = [
   MenuItem("O NÁS", 10),
   MenuItem("NÁŠ TÝM", 1498),
-  MenuItem("PODPOŘTE", 2602),
-  MenuItem("DOKUMENTY", 3071),
-  MenuItem("GALERIE", 3400),
+  MenuItem("PODPOŘTE", 3222),
+  MenuItem("DOKUMENTY", 3691),
+  MenuItem("GALERIE", 4020),
 ];
 
 List<String> mainPics = [
@@ -46,7 +46,7 @@ List<IconAndText> it = [
   IconAndText(Icons.help_outline, "Individuální láskyplný přístup pro rozvíjení schopností a dovedností klientů"),
 ];
 
-String text3 = "Cillum tempor officia do mollit dolor consequat anim eiusmod est voluptate sunt enim excepteur.\nAliqua consectetur veniam elit laboris voluptate nostrud culpa.";
+String text3 = "Pokud chcete finančně podpořit Sluneční domov směřujte dar na náš bankovní účet 2301881656/2010. Darovací smlouvu na požádání rádi vystavíme. Na emailu slunecni.domov@seznam.cz";
 
 class Contact {
   String name;
@@ -64,12 +64,20 @@ List<List<Contact>> contacts = [
   [
     Contact("Eliška Šilová", "Vedoucí asistentů v přímé péči", "+420 739 457 888", "assets/person3.jpg"),
     Contact("Klára Látalová", "Vedoucí asistentů v přímé péči", "+420 776 721 761", "assets/person4.jpg"),
-    Contact("Martin Sopr", "Asistent", "TODO", "assets/person5.jpg"),
+    Contact("Martin Sopr", "Asistent", "+420 733 381 401", "assets/person5.jpg"),
   ],
   [
     Contact("Lucie Kalajcidisová", "Asistent", "+420 608 729 535", "assets/person6.jpg"),
-    Contact("Anežka Stará", "Asistent", "+420 606 588 369", "assets/person7.jpg"),
-    Contact("Zuzana Horáčková", "Kuchařka", "+420 721 703 416", "assets/person8.jpg"),
+    Contact("Anežka Stará", "Asistent", "+420 606 588 369", "assets/person.jpg"),
+    Contact("Nela Šulcová", "Asistent", "+420 722 827 037", "assets/person.jpg"),
+  ],
+  [
+    Contact("Karolína Mrkvičková", "Asistent", "+420 724 066 547", "assets/person.jpg"),
+    Contact("Kamila Hrbáčová", "Asistent", "+420 732 674 441", "assets/person10.jpg"),
+    Contact("Kateřina Janovská", "Asistent", "+420 776 208 814", "assets/person11.jpg"),
+  ],
+  [
+    Contact("Zuzana Horáčková", "Kuchařka", "+420 721 703 416", "assets/person.jpg"),
   ],
 ];
 

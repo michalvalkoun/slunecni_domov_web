@@ -35,7 +35,7 @@ class Body3 extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15, right: 15, bottom: 15, top: 5),
                         child: Column(
                           children: [
-                            SizedBox(width: 200, child: Text("Naskenujte QR kód a pošlete dar na\n č.u. xxxxxxxxxxx/xxxx", textAlign: TextAlign.center, style: GoogleFonts.poppins(fontSize: 17))),
+                            SizedBox(width: 200, child: Text("Naskenujte QR kód a pošlete dar na\n č.u. 2301881656/2010", textAlign: TextAlign.center, style: GoogleFonts.poppins(fontSize: 17))),
                             const SizedBox(height: 10),
                             Image.asset(
                               "assets/qr.png",

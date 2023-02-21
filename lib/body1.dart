@@ -32,7 +32,7 @@ class Body1 extends StatelessWidget {
                     const SizedBox(width: 30),
                     Expanded(
                       flex: 1,
-                      child: Image.asset("assets/img1.png", height: 400, fit: BoxFit.cover),
+                      child: Image.asset("assets/img1.jpg", height: 400, fit: BoxFit.cover),
                     ),
                   ],
                 ),
@@ -54,7 +54,7 @@ class Body1 extends StatelessWidget {
                   height: 700,
                   child: Row(
                     children: [
-                      Expanded(flex: 1, child: Image.asset("assets/img2.png", fit: BoxFit.cover)),
+                      Expanded(flex: 1, child: Image.asset("assets/img2.jpg", fit: BoxFit.cover)),
                       Expanded(
                         flex: 1,
                         child: Column(
