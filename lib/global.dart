@@ -10,10 +10,11 @@ class MenuItem {
 
 List<MenuItem> menu = [
   MenuItem("O NÁS", 10),
-  MenuItem("NÁŠ TÝM", 1498),
-  MenuItem("PODPOŘTE", 3222),
-  MenuItem("DOKUMENTY", 3691),
-  MenuItem("GALERIE", 4020),
+  MenuItem("V ČEM JSME JINÍ", 10 + 1488),
+  MenuItem("NÁŠ TÝM", 10 + 1488 + 524),
+  MenuItem("PODPOŘTE", 10 + 1488 + 524 + 1724),
+  MenuItem("DOKUMENTY", 10 + 1488 + 524 + 1724 + 469),
+  MenuItem("GALERIE", 10 + 1488 + 524 + 1724 + 469 + 329),
 ];
 
 List<String> mainPics = [
@@ -29,6 +30,8 @@ List<String> mainPics = [
 
 String text1 =
     "Sluneční domov o.p.s. je nestátní zařízení, poskytující sociální služby týdenního stacionáře ve dvou oddělených rodinných buňkách 14 klientům s diagnózou Poruchy autistického spektra-PAS, dětská schizofrenie (většinou s přidruženým mentálním postižením).\nDnes převažují klienti mladiství a mladí dospělí.\nSlužby jsou určeny klientům od počátku povinné školní docházky (tedy minimálně od 6 let věku), horní věková hranice není stanovena.";
+String text2 =
+    "- Tvrdíme, že autismus - ač jde o jedno z nejtěžších postižení - neznamená automatické vyřazení ze společnosti; proto s našimi klienty využíváme místních služeb, městské hromadné dopravy, pravidelně jezdíme na letní tuzemské rehabilitační pobyty a k moři. Dosáhli jsme výrazných úspěchů v adaptaci našich klientů (i těch s těžšími formami PAS, se specifickými fobiemi a stresy) na cestování do zahraničí s běžnou populací - jak autobusem do Itálie, tak i letadlem do Egypta. Zde např. zvládají i relativně velké množství lidí pohromadě v jídelnách i na pláži, dlouhé fronty na jídlo, zpoždění odletu letadla apod. - Jedním z hlavních cílů našeho zařízení je rozvoj samostatnosti klientů a jejich integrace do běžné společnosti; pomáháme jim v tom cílevědomou přípravou na změny, které přináší každodenní život - V rámci projektů Evropské unie rozvíjíme pracovní terapii (v zařízení i mimo něj) pro klienty, na kterou navazuje podporované zaměstnávání - Nabízíme také odpolední aktivity na bázi osobní asistence, na základě zájmů a schopností klientů";
 
 class IconAndText {
   IconData icon;

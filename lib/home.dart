@@ -8,6 +8,7 @@ import 'body2.dart';
 import 'body3.dart';
 import 'body4.dart';
 import 'body5.dart';
+import 'body6.dart';
 
 import 'footer.dart';
 
@@ -61,6 +62,7 @@ class _HomeState extends State<Home> {
             const Body3(),
             const Body4(),
             const Body5(),
+            const Body6(),
             Footer(jump),
           ],
         ),
