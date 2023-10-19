@@ -26,45 +26,47 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        titleSpacing: 0,
-        title: Menu(jump),
-        backgroundColor: Colors.white,
-      ),
-      body: SingleChildScrollView(
-        controller: controller,
-        child: Column(
-          children: [
-            Builder(
-              builder: ((context) {
-                final double height = MediaQuery.of(context).size.width * 0.38;
-                return CarouselSlider(
-                  options: CarouselOptions(
-                    height: height,
-                    viewportFraction: 1.0,
-                    enlargeCenterPage: false,
-                    autoPlay: true,
-                    autoPlayInterval: const Duration(seconds: 5),
-                  ),
-                  items: mainPics
-                      .map(
-                        (e) => Center(
-                          child: Image.asset(e, width: double.infinity, height: height, fit: BoxFit.cover),
-                        ),
-                      )
-                      .toList(),
-                );
-              }),
-            ),
-            const Body1(),
-            const Body2(),
-            const Body3(),
-            const Body4(),
-            const Body5(),
-            const Body6(),
-            Footer(jump),
-          ],
+    return SelectionArea(
+      child: Scaffold(
+        appBar: AppBar(
+          titleSpacing: 0,
+          title: Menu(jump),
+          backgroundColor: Colors.white,
+        ),
+        body: SingleChildScrollView(
+          controller: controller,
+          child: Column(
+            children: [
+              Builder(
+                builder: ((context) {
+                  final double height = MediaQuery.of(context).size.width * 0.38;
+                  return CarouselSlider(
+                    options: CarouselOptions(
+                      height: height,
+                      viewportFraction: 1.0,
+                      enlargeCenterPage: false,
+                      autoPlay: true,
+                      autoPlayInterval: const Duration(seconds: 5),
+                    ),
+                    items: mainPics
+                        .map(
+                          (e) => Center(
+                            child: Image.asset(e, width: double.infinity, height: height, fit: BoxFit.cover),
+                          ),
+                        )
+                        .toList(),
+                  );
+                }),
+              ),
+              const Body1(),
+              const Body2(),
+              const Body3(),
+              const Body4(),
+              const Body5(),
+              const Body6(),
+              Footer(jump),
+            ],
+          ),
         ),
       ),
     );
