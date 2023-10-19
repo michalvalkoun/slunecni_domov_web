@@ -2,4 +2,4 @@
 
 # Website for Sluneční domov o.p.s.
 
->Available at [michalvalkoun.cz](http://michalvalkoun.cz)
+>Available at [slunecnidomovops.cz](http://slunecnidomovops.cz)
